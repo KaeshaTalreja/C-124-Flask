@@ -1,3 +1,8 @@
+# download pip using
+# curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+# python3 get-pip.py
+# pip3 install Flask
+
 from flask import Flask,jsonify,request
 
 myAPI=Flask(__name__)
